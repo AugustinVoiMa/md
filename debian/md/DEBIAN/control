@@ -1,0 +1,11 @@
+Package: md
+Version: 0.1-0ubuntu1
+Architecture: all
+Maintainer: Augustin Voisin-Marras <augustinvoima@gmail.com>
+Installed-Size: 11
+Depends: markdown, w3m
+Section: utils
+Priority: extra
+Homepage: https://github.com/AugustinVoiMa/md
+Description: bash markdown viewer
+ A simple tool to view a markdown .md file in a bash terminal with HTML hierarchy
