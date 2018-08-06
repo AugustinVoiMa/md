@@ -24,9 +24,8 @@ fi
 
 sudo mkdir -p $SRC_TARGET $BIN_REP;
 
-sudo cp md.sh README.md LICENSE $SRC_TARGET;
-if [ ! -e $BIN_REP/md ]; then
-  sudo ln -s -T $SRC_TARGET/md.sh $BIN_REP/md;
+sudo cp md BIN_REP/md ]; then
+  sudo ln -s -T $SRC_TARGET/md $BIN_REP/md;
 fi
 
 sudo chmod a+x $BIN_REP/md;
